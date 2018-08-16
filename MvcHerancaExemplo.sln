@@ -3,9 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Apresentacao", "0 - Apresentacao", "{5F706BB1-8E66-42EF-81C5-BD786AD3D243}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Dominio", "1 - Dominio", "{0D2E74F4-7B39-4658-AE08-7B529EB463DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Infra", "2 - Infra", "{F03B76D4-23A0-4CB3-9988-49752A95DB09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcHerancaExemplo.Dominio", "MvcHerancaExemplo.Dominio\MvcHerancaExemplo.Dominio.csproj", "{67D3FFF6-8782-4A26-A450-0AB919789C2E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67D3FFF6-8782-4A26-A450-0AB919789C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D3FFF6-8782-4A26-A450-0AB919789C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D3FFF6-8782-4A26-A450-0AB919789C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D3FFF6-8782-4A26-A450-0AB919789C2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{67D3FFF6-8782-4A26-A450-0AB919789C2E} = {0D2E74F4-7B39-4658-AE08-7B529EB463DB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D0AA5E61-75AD-45F5-94E5-6384BE058353}
